@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="438.0" prefWidth="463.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inventarioti.ConsultaController">
+   <columns>
+      <TableColumn fx:id="id" onEditStart="#onActionid" prefWidth="69.59997862577438" text="ID" />
+      <TableColumn fx:id="activo" onEditStart="#onAtiontipoActivo" prefWidth="96.0" text="Tipo de Activo" />
+      <TableColumn fx:id="marca" onEditStart="#onActionmarca" prefWidth="60.79998779296875" text="Marca" />
+      <TableColumn fx:id="modelo" onEditStart="#onActionModelo" prefWidth="75.0" text="Modelo" />
+      <TableColumn fx:id="serial" onEditStart="#onActionSerial" prefWidth="75.0" text="Serial" />
+      <TableColumn fx:id="responsable" onEditStart="#onActionResponsable" prefWidth="84.79998779296875" text="Responsable" />
+   </columns>
+</TableView>
